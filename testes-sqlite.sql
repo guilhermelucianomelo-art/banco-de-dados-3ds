@@ -1,5 +1,7 @@
 -- Remove tabela demo (exemplo inicial) do SQLite
 DROP TABLE demo;
+-- Ativar suporte a chaves estrangeiras
+PRAGMA foreign_keys = ON;
 -- Criação da tabela de Clientes
 CREATE TABLE Clientes (
 ClienteID INTEGER PRIMARY KEY,
